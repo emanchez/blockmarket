@@ -84,7 +84,7 @@ public class Blockmarket {
         t3.join();
         
         System.out.println(mbc.getSize());
-        for (int i = 1; i < mbc.getSize(); i++){
+        for (int i = 0; i < mbc.getSize(); i++){
             System.out.println("--------------------------------------------------------------------------------");
             System.out.println(mbc.getChain()[i]);
             System.out.println("--------------------------------------------------------------------------------");

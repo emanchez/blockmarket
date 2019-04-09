@@ -29,6 +29,7 @@ public class Block {
         nonce = 0;
         hash = "0000000000000000000000000000000000000000000000000000000000000000";
         hasher = MessageDigest.getInstance("SHA-256");
+        data = new BlockData(); // null
         
     }
     public Block(int bn, BlockData d, String p) throws NoSuchAlgorithmException {
